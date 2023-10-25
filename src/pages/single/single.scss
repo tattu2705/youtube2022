@@ -80,5 +80,36 @@
       color: lightgray;
       margin-bottom: 20px;
     }
+
+    .wrapper{
+      padding: 5%;
+
+      .spacing{
+        margin-bottom: 20px;
+        margin-top: 10px
+      }
+
+      .function{
+        display: flex;
+        justify-content: space-between;
+
+        .save{
+          background-color: #7451f8;
+          color: white;
+          border: none;
+          padding: 10px 20px;
+          border-radius: 5px;
+          cursor: pointer;
+        }
+        .cancel{
+          background-color: #dddbdb;
+          color: #7451f8;
+          border: none;
+          padding: 10px 20px;
+          border-radius: 5px;
+          cursor: pointer;
+        }
+      }
+    }
   }
 }
